@@ -24,7 +24,7 @@ Pod::Spec.new do |s|
   #   * Try to keep it short, snappy and to the point.
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
-  s.description  = "DDDDD"
+  s.description  = <<-DESC LZTool 是一个用于保存一些常用工具类的工具 DESC
 
   s.homepage     = "http://EXAMPLE/KingSDK"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
@@ -89,10 +89,10 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "Classes", "Classes/**/*.{h,m}"
-  s.exclude_files = "Classes/Exclude"
+  s.source_files  = "KingSDK", "KingSDK/*.{h,m,swift}"
+  s.exclude_files = "KingSDK/Exclude"
 
-  # s.public_header_files = "Classes/**/*.h"
+  # s.public_header_files = "KingSDK/*.h"
 
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
