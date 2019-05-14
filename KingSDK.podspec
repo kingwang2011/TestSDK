@@ -24,7 +24,9 @@ Pod::Spec.new do |s|
   #   * Try to keep it short, snappy and to the point.
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
-  s.description  = <<-DESC LZTool 是一个用于保存一些常用工具类的工具 DESC
+  s.description  = <<-DESC
+                       KingSDK 是一个用于保存一些常用工具类的工具
+                      DESC
 
   s.homepage     = "http://EXAMPLE/KingSDK"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
